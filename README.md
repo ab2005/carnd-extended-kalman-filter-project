@@ -5,7 +5,7 @@ Self-Driving Car Engineer Nanodegree Program
 Links:
  * [Фильтр Калмана](http://david.wf/kalmanfilter/)
  * [Фильтр Калмана-!сложно](https://habrahabr.ru/post/120133/)
-
+ * [Understanding the Basis of the Kalman Filter Via a Simple and Intuitive Derivation](https://www.cl.cam.ac.uk/~rmf25/papers/Understanding%20the%20Basis%20of%20the%20Kalman%20Filter.pdf)
 
 ## Dependencies
 
