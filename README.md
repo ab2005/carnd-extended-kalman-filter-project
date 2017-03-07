@@ -2,6 +2,10 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
+Links:
+[Фильтр Калмана](http://david.wf/kalmanfilter/)
+
+
 
 ## Dependencies
 
