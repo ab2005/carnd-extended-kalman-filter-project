@@ -12,11 +12,9 @@ Self-Driving Car Engineer Nanodegree Program
     eg. ./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output-1.txt
 
 
-```python
-%%bash
+```bash
 cd build && cmake .. && make
 ```
-
     -- Configuring done
     -- Generating done
     -- Build files have been written to: /Users/ab/SDC/CarND-Extended-Kalman-Filter-Project-master/build
@@ -51,8 +49,7 @@ def plot(table_ekf_output):
     py.iplot(fig, filename= 'EKF')
 ```
 
-```python
-%%bash
+```bash
 DIR=/Users/ab/SDC/CarND-Extended-Kalman-Filter-Project-master/
 $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-1.txt $DIR/data/output-1.txt
 ```
@@ -62,7 +59,7 @@ $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-1.txt $DIR/d
       0.54319
      0.544191
 
-Image here
+![Image](img2.png)
 ```python
 plot(pd.read_table('data/output-1.txt', sep='\t', header=None, names=my_cols, lineterminator='\n'))
 ```
@@ -81,4 +78,4 @@ $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-2.txt $DIR/d
 ```python
 plot(pd.read_table('data/output-2.txt', sep='\t', header=None, names=my_cols, lineterminator='\n'))
 ```
-Image here
+![Image](img1.png)
