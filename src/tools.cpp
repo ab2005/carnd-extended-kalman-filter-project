@@ -41,7 +41,6 @@ namespace tools {
         //check division by zero
         if(fabs(c1) < 0.0001){
             cout << "CalculateJacobian () - Error - Division by Zero" << endl;
-            cout << x_state << endl;
             return Hj;
         }
 
