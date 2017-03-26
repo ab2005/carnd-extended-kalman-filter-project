@@ -56,11 +56,11 @@ $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-1.txt $DIR/d
     0.0605378
       0.54319
      0.544191
-
-![Image](img1.png)
 ```python
 plot(pd.read_table('data/output-1.txt', sep='\t', header=None, names=my_cols, lineterminator='\n'))
 ```
+![Image](img1.png)
+
 
 ```bash
 DIR=/Users/ab/SDC/CarND-Extended-Kalman-Filter-Project-master/
