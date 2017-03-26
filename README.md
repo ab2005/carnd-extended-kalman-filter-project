@@ -57,7 +57,7 @@ $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-1.txt $DIR/d
       0.54319
      0.544191
 
-![Image](img2.png)
+![Image](img1.png)
 ```python
 plot(pd.read_table('data/output-1.txt', sep='\t', header=None, names=my_cols, lineterminator='\n'))
 ```
@@ -75,4 +75,4 @@ $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-2.txt $DIR/d
 ```python
 plot(pd.read_table('data/output-2.txt', sep='\t', header=None, names=my_cols, lineterminator='\n'))
 ```
-![Image](img1.png)
+![Image](img2.png)
