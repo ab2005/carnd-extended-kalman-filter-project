@@ -33,9 +33,7 @@ from plotly.graph_objs import *
 import pandas as pd
 import math
 py.init_notebook_mode()
-
 my_cols=['px_est','py_est','vx_est','vy_est','px_meas','py_meas','px_gt','py_gt','vx_gt','vy_gt']
-
 def plot(table_ekf_output):
     #estimations
     trace1 = Scatter(x=table_ekf_output['px_est'],y=table_ekf_output['py_est'],xaxis='x2',yaxis='y2',name='KF- Estimate')
@@ -64,8 +62,7 @@ $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-1.txt $DIR/d
 plot(pd.read_table('data/output-1.txt', sep='\t', header=None, names=my_cols, lineterminator='\n'))
 ```
 
-```python
-%%bash
+```bash
 DIR=/Users/ab/SDC/CarND-Extended-Kalman-Filter-Project-master/
 $DIR/build/ExtendedKF $DIR/data/sample-laser-radar-measurement-data-2.txt $DIR/data/output-2.txt
 ```
